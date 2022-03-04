@@ -1,0 +1,158 @@
+body{
+    background-color:#EDEDE9;
+   
+}
+.port-body{
+    background-image:url(luca-bravo-zAjdgNXsMeg-unsplash.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.port-margin{
+    margin: 6%;
+}
+.abt-margin{
+    margin:4%;
+}
+.home-p{
+    text-align: center;
+    font-size: 17px;
+    float:right;
+    margin-right: 270px;
+    
+}
+
+.navbar  {
+    background-color:#fff ;
+    margin-top: 1%;   
+}
+  
+
+
+.space{
+      margin-left: 73%;
+      margin-right: 0px;  
+  }
+ 
+.grid-container{
+    display: inline-grid;
+    grid-template-areas: 
+    "header   header   header   header";
+    column-gap: 10px;
+    justify-content: end;
+}
+
+.table, th, td {
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding:10px;
+}
+th{
+    text-align: center;
+}
+.tbl-abt{
+    display:inline-block;
+    margin-left: 140px;
+}
+
+caption {
+    font-size: x-large;
+}
+
+.abt-img{
+float: left;
+padding:70px;
+padding-top: 20px;
+overflow: hidden;
+border-bottom-left-radius: 20%;
+border-bottom-right-radius: 35%;
+border-top-left-radius: 35%;
+border-top-right-radius: 20%;
+}
+
+.p-abt{
+   text-align: center;
+   margin-top: 25px;
+}
+
+.lnk-abt{
+    margin-left: 310px;
+}
+.h1abt{
+    font-size: 50px;
+    color: lightslategray;
+}
+.name{
+    font-size:large; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 300px;
+    font-weight: bold;
+}
+.gray-box{
+    height: 10px;
+}
+.bkg-color{
+    background-color:rgb(108, 117, 125, 0.4);
+    text-align: center;
+    
+}
+.contact-form{
+   float: right;
+}
+
+.container {
+    position: relative;
+  }
+  
+  .img1-box {
+    position: relative;
+    z-index: 1;
+    height: 100px;
+    margin: 30px;
+    transform: rotate(-5deg);
+  }
+  
+  .img3-box {
+    position:absolute;
+    z-index: 3; 
+    height: 60px;  
+    width: 70%;
+    left: 150px;
+    top: 290px;
+    margin-left: 30px;
+    transform: rotate(2deg);
+  }
+
+  .img2-box {
+    position: absolute;
+    z-index: 2;
+    width: 35%;
+    left: 520px;
+    top: 145px;
+    height: 100px;
+    transform: rotate(10deg);
+  }
+ 
+
+  .hme-img{
+      margin-top: 30px;
+      margin-left: none;
+  }
+
+.vert{
+    display: inline;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    vertical-align: none;
+    margin-left: 14%;
+}
+
+.vl {
+    border-left: 1px solid black;
+    height: 90px;
+  }
+  .col{
+      text-align: center;
+      
+  }
